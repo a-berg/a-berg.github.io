@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "Paralelización en julia"
-categories: julia mathematics parallelization
 math: true
 ---
-
-# Introducción
 
 En este post se van a explorar las capacidades nativas de paralelización en
 julia.
