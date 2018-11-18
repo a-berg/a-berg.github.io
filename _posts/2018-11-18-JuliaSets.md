@@ -2,6 +2,7 @@
 title: "Conjuntos de Julia (en julia)"
 author: Adrián Berges Enfedaque
 date: 18-11-2018
+math: true
 ---
 
 La geometría fractal es probablemente una de las ramas de las matemáticas más
@@ -129,7 +130,8 @@ contour(J_f',
     showaxis = false,
     legend=:none)
 ```
-![Conjunto para c = -0.8+0.156*im](https://www.adrianberges.com/images/juliaset.png)
+
+![Conjunto para c = -0.8+0.156*im](images/juliaset.png)
 
 ## Mejoras
 
@@ -221,7 +223,7 @@ end
 # se omite parte del directorio de salida
 gif(anim,"\\figures\\julia_anim30.gif",fps=30)
 ```
-![Animación 0.7885*exp(a*im)](https://www.adrianberges.com/images/julia_anim30.gif)
+![Animación 0.7885*exp(a*im)](images/julia_anim30.gif)
 
 Con esto se concluye el artículo, aunque el tema es realmente interesante (desde
 el punto de vista informático también) y se retomará en el futuro.
