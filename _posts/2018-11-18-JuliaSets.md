@@ -131,7 +131,7 @@ contour(J_f',
     legend=:none)
 ```
 
-<img src="../images/juliaset.png" alt="Conjunto para c = -0.8+0.156*im" class="inline"/>
+![Conjunto para c = -0.8+0.156*im](https://i.imgur.com/rHq73Qc.png)
 
 ## Mejoras
 
@@ -192,9 +192,9 @@ Al igual que antes con `map`, podría usarse la función nativa
 sin embargo no es conveniente para una función tan sencilla, ya que de la
 documentación:
 
-    Julia's pmap is designed for the case where each function call does a large
-    amount of work. In contrast, `@distributed for` can handle situations where
-    each iteration is tiny [...]
+    Julia's pmap is designed for the case where each function call does a 
+    large amount of work. In contrast, `@distributed for` can handle 
+    situations where each iteration is tiny [...]
 
 Y, si probamos a realizar el cálculo con `pmap` observaremos que:
 
@@ -224,7 +224,7 @@ end
 gif(anim,"\\figures\\julia_anim30.gif",fps=30)
 ```
 
-<img src="../images/julia_anim30.gif" alt="Animación 0.7885*exp(a*im)" class="inline"/>
+![Animación 0.7885*exp(a*im)](https://i.imgur.com/xUhabwA.gifv)
 
 Con esto se concluye el artículo, aunque el tema es realmente interesante (desde
 el punto de vista informático también) y se retomará en el futuro.
