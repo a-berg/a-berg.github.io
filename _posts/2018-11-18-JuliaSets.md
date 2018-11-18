@@ -224,7 +224,7 @@ end
 gif(anim,"\\figures\\julia_anim30.gif",fps=30)
 ```
 
-![Animación 0.7885*exp(a*im)](https://i.imgur.com/xUhabwA.gifv)
+<iframe class="imgur-embed" width="100%" height="400" frameborder="0" src="https://i.imgur.com/xUhabwA.gifv#embed"></iframe>
 
 Con esto se concluye el artículo, aunque el tema es realmente interesante (desde
 el punto de vista informático también) y se retomará en el futuro.
