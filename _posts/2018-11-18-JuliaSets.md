@@ -131,7 +131,7 @@ contour(J_f',
     legend=:none)
 ```
 
-<img src="images/juliaset.png" alt="Conjunto para c = -0.8+0.156*im" class="inline"/>
+<img src="../images/juliaset.png" alt="Conjunto para c = -0.8+0.156*im" class="inline"/>
 
 ## Mejoras
 
@@ -224,7 +224,7 @@ end
 gif(anim,"\\figures\\julia_anim30.gif",fps=30)
 ```
 
-<img src="images/julia_anim30.gif" alt="Animación 0.7885*exp(a*im)" class="inline"/>
+<img src="../images/julia_anim30.gif" alt="Animación 0.7885*exp(a*im)" class="inline"/>
 
 Con esto se concluye el artículo, aunque el tema es realmente interesante (desde
 el punto de vista informático también) y se retomará en el futuro.
