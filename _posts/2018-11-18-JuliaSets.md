@@ -224,7 +224,7 @@ end
 gif(anim,"\\figures\\julia_anim30.gif",fps=30)
 ```
 
-<iframe class="imgur-embed" width="100%" height="400" frameborder="0" src="https://i.imgur.com/xUhabwA.gifv#embed"></iframe>
+<a href="https://imgur.com/ag3VJZ6"><img src="https://i.imgur.com/ag3VJZ6.gif" title="source: imgur.com" /></a>
 
 Con esto se concluye el artículo, aunque el tema es realmente interesante (desde
 el punto de vista informático también) y se retomará en el futuro.
