@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Implementación del test de Miller-Rabin en C++"
 author: Adrián Berges Enfedaque
 date: 25-02-2019
@@ -16,14 +17,15 @@ $$
 $$
 
 <!-- Contexto relativo a por qué me dio por implementar esto. -->
-Recientemente empecé un libro de C++ orientado a proyectos y ejercicios ([TheModern C++ Challenge][cpp-chall]).
+Recientemente empecé a leer un libro de C++ orientado a proyectos y ejercicios ([The Modern C++ Challenge][cpp-chall]).
 El ejercicio 4 es un ejercicio sobre números primos, que pide:
 
 > Dado un número natural $N$, encontrar el mayor primo $p$ tal que $p<N$.
 
-Normalmente, este tipo de ejercicios (y la solución que da el libro también es esta) se
-resuelve mediante la [criba de Eratóstenes][wiki-criba]; dado que suele ser un
-problema introductorio y no se plantea para la búsqueda de la mejor solución posible.
+Normalmente, este tipo de ejercicios se resuelve mediante la [criba de
+eratóstenes][wiki-criba] (la solución que da el libro también es esta); dado que
+suele ser un problema introductorio y no se plantea para la búsqueda de la mejor
+solución posible.
 
 No obstante, en este caso me propuse implementar algún algoritmo eficiente de
 test de primalidad, ya que es un problema frecuente tanto en colecciones de ejercicios
@@ -70,6 +72,7 @@ subiendo cosas relacionadas con algoritmos de carácter numérico en C++.
 [wiki-carmichael]: https://en.wikipedia.org/wiki/Carmichael_number
 [wiki-fermat]: https://en.wikipedia.org/wiki/Fermat_primality_test
 [catch2]: https://github.com/catchorg/Catch2
+[link-github]: 
 
 # Qué es el test de Miller-Rabin
 <!-- Comentar que es un test de primalidad, probabilístico. -->
@@ -466,10 +469,3 @@ parámetro
 
 La verificación (o _testing_) del algoritmo se realizó con un test dividido en
 varios casos, usando Catch2. -->
-
-## Conclusión
-
-El algoritmo, aunque sencillo, tiene algunos puntos interesantes de cara al
-aprendizaje de ciencias computacionales.
-
-El código completo puede encontrarse en [github](github-cpp).

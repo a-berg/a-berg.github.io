@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Conjuntos de Julia (en julia)"
 author: Adrián Berges Enfedaque
 date: 18-11-2018
