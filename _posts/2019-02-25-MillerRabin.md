@@ -72,7 +72,7 @@ subiendo cosas relacionadas con algoritmos de carácter numérico en C++.
 [wiki-carmichael]: https://en.wikipedia.org/wiki/Carmichael_number
 [wiki-fermat]: https://en.wikipedia.org/wiki/Fermat_primality_test
 [catch2]: https://github.com/catchorg/Catch2
-[link-github]: 
+[link-github]: https://github.com/a-berg/cpp-numeric
 
 # Qué es el test de Miller-Rabin
 <!-- Comentar que es un test de primalidad, probabilístico. -->
