@@ -23,7 +23,7 @@ El ejercicio 4 es un ejercicio sobre números primos, que pide:
 > Dado un número natural $N$, encontrar el mayor primo $p$ tal que $p<N$.
 
 Normalmente, este tipo de ejercicios se resuelve mediante la [criba de
-eratóstenes][wiki-criba] (la solución que da el libro también es esta); dado que
+Eratóstenes][wiki-criba] (la solución que da el libro también es esta); dado que
 suele ser un problema introductorio y no se plantea para la búsqueda de la mejor
 solución posible.
 
